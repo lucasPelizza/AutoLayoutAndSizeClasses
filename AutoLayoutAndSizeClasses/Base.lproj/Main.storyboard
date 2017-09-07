@@ -36,11 +36,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="D6T-pN-iLW">
-                                <rect key="frame" x="100" y="145" width="467" height="112.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="D6T-pN-iLW">
+                                <rect key="frame" x="100" y="131.5" width="467" height="112.5"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvj-Ei-GdP">
-                                        <rect key="frame" x="0.0" y="0.5" width="467" height="29.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvj-Ei-GdP">
+                                        <rect key="frame" x="0.0" y="0.5" width="467" height="50"/>
                                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Constraints">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -49,8 +49,8 @@
                                             <segue destination="BYZ-38-t0r" kind="show" id="fRB-IQ-XbT"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ME-kW-dng">
-                                        <rect key="frame" x="0.0" y="42" width="467" height="29.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ME-kW-dng">
+                                        <rect key="frame" x="0.0" y="62.5" width="467" height="50.5"/>
                                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Constraints &amp; Size Classes">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -59,17 +59,9 @@
                                             <segue destination="mOT-v0-aSd" kind="show" id="wfW-rJ-nAB"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ij-1E-pj0">
-                                        <rect key="frame" x="0.0" y="83.5" width="467" height="29.5"/>
-                                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Size Classes">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="0ME-kW-dng" firstAttribute="width" secondItem="D6T-pN-iLW" secondAttribute="width" id="VXG-oM-cCI"/>
-                                    <constraint firstItem="2ij-1E-pj0" firstAttribute="width" secondItem="D6T-pN-iLW" secondAttribute="width" id="ljp-L5-svo"/>
                                     <constraint firstItem="uvj-Ei-GdP" firstAttribute="width" secondItem="D6T-pN-iLW" secondAttribute="width" id="wBC-mj-Yx1"/>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="202" id="z97-6A-eRK"/>
                                 </constraints>
@@ -252,28 +244,25 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ldk-Ra-P8U">
                                         <rect key="frame" x="43.5" y="38" width="347.5" height="300"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <mutableString key="text">Lago Argentino is a lake in the Patagonian province of Santa Cruz, Argentina, at 50°2′S 72°4′W. It is the biggest freshwater lake in Argentina, with a surface area of 1,415 km2 (546 sq mi) (maximum width: 20 mi (32 km)). It has an average depth of 150 m (492 ft), and a maximum depth of 500 m (1,640 ft).
+                                        <string key="text">Lago Argentino is a lake in the Patagonian province of Santa Cruz, Argentina, at 50°2′S 72°4′W. It is the biggest freshwater lake in Argentina, with a surface area of 1,415 km2 (546 sq mi) (maximum width: 20 mi (32 km)). It has an average depth of 150 m (492 ft), and a maximum depth of 500 m (1,640 ft).
 
-The lake lies within the Los Glaciares National Park in a landscape with numerous glaciers and is fed by the glacial meltwater of several rivers, the water from Lake Viedma brought by the La Leona River, and many mountain streams. Its drainage basin amounts to more than 17,000 km2 (6,564 sq mi). Waters from Lake Argentino flow into the Atlantic Ocean through the Santa Cruz River.</mutableString>
+The lake lies within the Los Glaciares National Park in a landscape with numerous glaciers and is fed by the glacial meltwater of several rivers, the water from Lake Viedma brought by the La Leona River, and many mountain streams. Its drainage basin amounts to more than 17,000 km2 (6,564 sq mi). Waters from Lake Argentino flow into the Atlantic Ocean through the Santa Cruz River.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                        <variation key="heightClass=compact" hidden="YES"/>
                                     </textView>
-                                    <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fZz-nL-Z0y">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fZz-nL-Z0y">
                                         <rect key="frame" x="8" y="66" width="195" height="243.5"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <mutableString key="text">Lago Argentino is a lake in the Patagonian province of Santa Cruz, Argentina, at 50°2′S 72°4′W. It is the biggest freshwater lake in Argentina, with a surface area of 1,415 km2 (546 sq mi) (maximum width: 20 mi (32 km)). It has an average depth of 150 m (492 ft), and a maximum depth of 500 m (1,640 ft).</mutableString>
+                                        <string key="text">Lago Argentino is a lake in the Patagonian province of Santa Cruz, Argentina, at 50°2′S 72°4′W. It is the biggest freshwater lake in Argentina, with a surface area of 1,415 km2 (546 sq mi) (maximum width: 20 mi (32 km)). It has an average depth of 150 m (492 ft), and a maximum depth of 500 m (1,640 ft).</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                        <variation key="heightClass=compact" hidden="NO"/>
                                     </textView>
-                                    <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="oMY-EE-TjI">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="oMY-EE-TjI">
                                         <rect key="frame" x="230.5" y="66" width="195" height="243.5"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <mutableString key="text">The lake lies within the Los Glaciares National Park in a landscape with numerous glaciers and is fed by the glacial meltwater of several rivers, the water from Lake Viedma brought by the La Leona River, and many mountain streams. Its drainage basin amounts to more than 17,000 km2 (6,564 sq mi). Waters from Lake Argentino flow into the Atlantic Ocean through the Santa Cruz River.</mutableString>
+                                        <string key="text">The lake lies within the Los Glaciares National Park in a landscape with numerous glaciers and is fed by the glacial meltwater of several rivers, the water from Lake Viedma brought by the La Leona River, and many mountain streams. Its drainage basin amounts to more than 17,000 km2 (6,564 sq mi). Waters from Lake Argentino flow into the Atlantic Ocean through the Santa Cruz River.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                        <variation key="heightClass=compact" hidden="NO"/>
                                     </textView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.70413151840490795" colorSpace="calibratedWhite"/>
@@ -291,6 +280,19 @@ The lake lies within the Los Glaciares National Park in a landscape with numerou
                                     <constraint firstItem="Ldk-Ra-P8U" firstAttribute="centerY" secondItem="odm-4C-aIz" secondAttribute="centerY" id="y73-lu-8Ar"/>
                                     <constraint firstAttribute="trailing" secondItem="oMY-EE-TjI" secondAttribute="trailing" constant="8" id="zjL-Dd-8KG"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="fZz-nL-Z0y"/>
+                                        <exclude reference="oMY-EE-TjI"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="subviews">
+                                        <exclude reference="Ldk-Ra-P8U"/>
+                                        <include reference="fZz-nL-Z0y"/>
+                                        <include reference="oMY-EE-TjI"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Fb-P6-yd9" userLabel="imageView">
                                 <rect key="frame" x="0.0" y="0.0" width="233.5" height="375"/>
@@ -298,19 +300,17 @@ The lake lies within the Los Glaciares National Park in a landscape with numerou
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunshine" translatesAutoresizingMaskIntoConstraints="NO" id="b53-sm-N74">
                                         <rect key="frame" x="35.5" y="56" width="163.5" height="262.5"/>
                                     </imageView>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="51º F" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H33-K0-6tm">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="51º F" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H33-K0-6tm">
                                         <rect key="frame" x="0.0" y="318.5" width="233.5" height="21.5"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=compact" hidden="NO"/>
                                     </label>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wind 15 km/h WSW" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cY-Yh-WHb">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wind 15 km/h WSW" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cY-Yh-WHb">
                                         <rect key="frame" x="0.5" y="289.5" width="233.5" height="21"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
-                                        <variation key="heightClass=compact" hidden="NO"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.20000000000000001" green="0.67843137249999996" blue="0.45098039220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -327,6 +327,10 @@ The lake lies within the Los Glaciares National Park in a landscape with numerou
                                     <constraint firstItem="b53-sm-N74" firstAttribute="width" secondItem="3Fb-P6-yd9" secondAttribute="width" multiplier="0.7" id="zSf-ZT-2or"/>
                                 </constraints>
                                 <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="H33-K0-6tm"/>
+                                        <exclude reference="8cY-Yh-WHb"/>
+                                    </mask>
                                     <mask key="constraints">
                                         <exclude reference="1h2-gj-zLE"/>
                                         <exclude reference="hcc-0W-cZP"/>
@@ -337,6 +341,10 @@ The lake lies within the Los Glaciares National Park in a landscape with numerou
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="H33-K0-6tm"/>
+                                        <include reference="8cY-Yh-WHb"/>
+                                    </mask>
                                     <mask key="constraints">
                                         <include reference="1h2-gj-zLE"/>
                                         <include reference="hcc-0W-cZP"/>
