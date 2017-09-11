@@ -21,6 +21,11 @@ This example is more complex than the previous one. We have only one ViewControl
 
 #### Example 2 - Constraints & Size Classes
 
+##### iPhone
+![alt text](https://github.com/lucasPelizza/AutoLayoutAndSizeClasses/blob/develop/Readme%20Assets/videos/iPhone%20-%20Size%20classes%20and%20constraints.gif)
+
+##### iPad
+![alt text](https://github.com/lucasPelizza/AutoLayoutAndSizeClasses/blob/develop/Readme%20Assets/videos/iPad%20-%20size%20classes%20and%20constraints.gif)
 
 ###### Author
 Lucas Eduardo Pelizza | [Linked In](www.linkedin.com/in/lucaspelizza) | [Send me an email](mailto:pelizza.lucas@gmail.com)
