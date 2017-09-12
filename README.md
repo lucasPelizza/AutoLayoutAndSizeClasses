@@ -13,6 +13,9 @@ This example is more complex than the previous one. We have only one ViewControl
 - Type and size of the font.
 - The pictures to show.
 
+### Size Classes & Logic
+This example shows how you can enter alter the behavior of an application depending on the type of device (iPhone or iPad) and mode (Landscape or Portrait), this is achieved using Size Classes on the code.
+
 ## Screenshots 
 
 #### Example 1 - Constraints
@@ -26,6 +29,11 @@ This example is more complex than the previous one. We have only one ViewControl
 
 ##### iPad
 ![alt text](https://github.com/lucasPelizza/AutoLayoutAndSizeClasses/blob/develop/Readme%20Assets/videos/iPad%20-%20size%20classes%20and%20constraints.gif)
+
+#### Example 3 - Size Classes & Logic
+
+##### iPhone
+![alt text](https://github.com/lucasPelizza/AutoLayoutAndSizeClasses/blob/develop/Readme%20Assets/videos/SizeClassesAndLogic.gif)
 
 ###### Author
 Lucas Eduardo Pelizza | [Linked In](www.linkedin.com/in/lucaspelizza) | [Send me an email](mailto:pelizza.lucas@gmail.com)
